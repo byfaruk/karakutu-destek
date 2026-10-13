@@ -2460,7 +2460,7 @@ pub fn read_custom_client(config: &str) {
         log::error!("Failed to decode custom client config");
         return;
     };
-    const KEY: &str = "5Qbwsde3unUcJBtrx9ZkvUmwFNoExHzpryHuPUdqlWM=";
+    const KEY: &str = "sGbjSz9DYwrC1Mon/e67KIDMxWfrJArUxTCn/wYqeWo="; // Karakutu: özel istemci yapılandırması imza anahtarı
     let Some(pk) = get_rs_pk(KEY) else {
         log::error!("Failed to parse public key of custom client");
         return;
